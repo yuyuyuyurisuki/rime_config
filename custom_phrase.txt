@@ -1,77 +1,89 @@
-# Rime table
-# coding: utf-8
-#
-# 用於【朙月拼音】系列輸入方案
-# 【小狼毫】0.9.21 以上
-#
-# 請將該文件以UTF-8編碼保存爲
-# Rime用戶文件夾/custom_phrase.txt
-#
-# 碼表各字段以製表符（Tab）分隔
-# 順序爲：文字、編碼、權重（決定重碼的次序、可選）
-#
-# 雖然文本碼表編輯較爲方便，但不適合導入大量條目
-#
-# no comment
-
-中州韻輸入法引擎	rime	2
-又双叒叕	yyy
-http://rime.im/	rime	1
-Rime	rime	3
-⌘	cmd
-⌃	ctl
-⌥	opt
-⇧	shift
-GBK	gbk
-UTF-8	utfba
-macOS High Sierra	macos	2
-macOS Mojave	macos	3
-macOS	macos	4
-macOS Sierra	macos	1
-Google Analytics	ga
-macOS	macos
-Linux	linux
-CSS	css
-HTML html
-iOS	ios
-iPad	ipad
-iPhone	iphone
-iTunes	itunes
-JavaScript js
-TypeScript ts
-jQuery	jquery
-MySQL	mysql
-SQL	sql
-Objective-C	ojbc
-Ruby	ruby
-Rust	rust
-WeChat	wechat
-Swift	swift
-MacBook Pro	mbp
-MacBook	macbook
-Apple	apple
-U盘	upj
-GitHub	github
-iMac	imac
-iPad	ipad
-iPhone	iphone
-iPod	ipod
-IPTV	iptv
-IPv4	ipv
-IPv6	ipv
-Mac App Store	mas
-OS X	osx
-GNU/Linux	linux
-X-Ray	xray
-Xbox One	xbox
-Youku	youku
-YouTube	youtube
-又双叒叕	yzyz
-iCloud	icloud
-Quantumult	quan
-Dropbox	dropbox
-T恤	txu
-Mac	mac
-Wi-Fi	wifi
-Apple ID	appleid
-QQ邮箱	qqyzxl
+やがて君になる	zjcwn	1
+终将成为你	zjcwn	2
+ラブライブ！スーパースター!!	llxt	1
+LoveLive!Superstar!!	llxt	2
+ラブライブ！虹ヶ咲学園スクールアイドル同好会	llhx	1
+LoveLive!虹咲学园学园偶像同好会	llhx	2
+プリンセス・プリンシパル	prpr	1
+Princess Principal	prpr	2
+公主代理人	gzdlr	1
+リコリス・リコイル	rkrk	1
+Lycoris	Recoil	rkrk	2
+ᥬ	zbz
+᭄	ybz
+⚢	nn
+きみが死ぬまで恋をしたい	ynxld	1
+与你相恋到生命尽头	ynxld	2
+ささやくように恋を唄う	lyqc	1
+恋语轻唱	lyqc	2
+恰如细语般的恋歌	qrxyb	1
+その花びらにくちづけを	hwzs	1
+亲吻那片花瓣	hwzs	2
+花吻在上	hwzs	3
+の	no
+ひきこまり吸血姫の悶々	jldxxj	1
+家里蹲吸血姬的郁闷	jldxxj	2
+ぼっち・ざ・ろっく！	gdyg	1
+Bocchi The Rock!	gdyg	2
+孤独摇滚	gdyg	3
+まちカドまぞく	jjmz	1
+街角魔族	jjmz	2
+ゆるゆり	yybh	1
+摇曳百合	yybh	2
+ゆるキャン△	yyly	1
+搖曳露营△	yyly	2
+わたしが恋人になれる	wzmkn	1
+我怎么可能成为你的恋人	wzmkn	2
+わたなれ	lrbx	1
+恋人不行	lrbx	2
+アネモネは熱を帯びる	wrdylh	1
+温热的银莲花	wrdylh	2
+マギアレコード	mfjl	1
+魔法纪录	mfjl	2
+マナリアフレンズ	mnly	1
+玛纳利亚的密友	mnly	2
+リズと青い鳥	lzyqn	1
+莉兹与青鸟	lzyqn	2
+㚣	jiao
+ふたりべや	nwdsrj	1
+你我的双人间	nwdsrj	2
+処刑少女の生きる道	cxsn	1
+处刑少女的生存之道	cxsn	2
+女同士とかあり	jfys	1
+将放言说女生之间不可能	jfys	2
+ありおと	brbh	1
+百日百合	brbh	2
+奻	nuan
+姛	nt
+安達としまむら	adydc	1
+安达与岛村	adydc	2
+少女☆歌劇	sngj	1
+少女歌剧	sngj	2
+悪魔のリドル	emzm	1
+恶魔之谜	emzm	2
+私を喰べたい、ひとでなし	xcdwd	1
+想吃掉我的非人少女	xcdwd	2
+戦姬絶唱シンフォギア	zjjc	1
+战姬绝唱	zjjc	2
+水星の魔女	sxdmn	1
+あさがおと加瀬さん。	qnhy	1
+牵牛花与加濑同学	qnhy	2
+終末のイゼッタ	zmdyzt	1
+终末的伊泽塔	zmdyzt	2
+結城友奈は勇者である	jcyns	1
+结城友奈是勇者	jcyns	2
+贡🍊	gc
+転生王女と天才令嬢の魔法革命	zswn	1
+转生王女与天才千金的魔法革命	zswn	2
+魔女の旅々	mnzl	1
+魔女之旅	mnzl	2
+魔法少女まどか☆マギカ	mfsnxy	1
+魔法少女小圆	mfsnxy	2
+🇻🇳	yn
+🌾	dao
+🐭	su
+😅	han
+😇	ss
+🤗	ts
+𠷡	bh
+🥵	sao

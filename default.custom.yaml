@@ -1,8 +1,9 @@
 patch:
   schema_list:
-    - schema: double_pinyin_flypy # 小鹤双拼
     - schema: luna_pinyin # 全拼
-    # - schema: double_pinyin # 自然码
+    - schema: japanese
+    # - schema: easy_en
+
   switcher/hotkeys:
     - "Control+grave" # 注意是control+`，不是command+`
   switcher/save_options:
@@ -11,15 +12,15 @@ patch:
     - simplification
     - zh_hans
     - emoji_suggestion
-  menu/page_size: 8
+  menu/page_size: 9
   ascii_composer: # 设置caps、shift、control等键的作用
     good_old_caps_lock: true # 若为true，caps只切换大小写
     switch_key:
-      Shift_L: commit_code
-      Shift_R: noop
+      Shift_L: noop
+      Shift_R: commit_code
       Control_L: noop
       Control_R: noop
-      Caps_Lock: commit_code
+      Caps_Lock: noop
       Eisu_toggle: clear
   key_binder/bindings: # 设置哪些键可以翻页，需要哪个取消注释即可
     # - { when: composing, accept: Tab, send: Page_Up } # Tab 翻页
@@ -47,7 +48,8 @@ patch:
     # - {accept: "Control+Shift+1", select: .next, when: always}
     # - {accept: "Control+Shift+2", toggle: ascii_mode, when: always}
     # - {accept: "Control+Shift+3", toggle: full_shape, when: always}
-    # - {accept: "Control+Shift+4", toggle: simplification, when: always}
+    - {accept: "Control+Shift+F", toggle: simplification, when: always}
+    - {accept: "Control+Shift+E", toggle: emoji_suggestion, when: always}
     # - {accept: "Control+Shift+5", toggle: extended_charset, when: always}
     # - {accept: "Control+Shift+exclam", select: .next, when: always}
     # - {accept: "Control+Shift+at", toggle: ascii_mode, when: always}
